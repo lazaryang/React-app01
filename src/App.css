@@ -6,13 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.glavni{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.esiminch{
+  position: relative;
+}
+.number{
+  position: absolute;
+  top:  140px;
+  left: 145px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
